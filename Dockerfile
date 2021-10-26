@@ -1,4 +1,4 @@
-FROM alpine:3.11.12
+FROM node:14-buster
 
 WORKDIR /app
 
