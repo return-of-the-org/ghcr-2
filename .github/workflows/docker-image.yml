@@ -51,9 +51,7 @@ jobs:
         labels: |
           com.atomist.containers.image.dockerfile=Dockerfile
         tags: |
-          type=ref,event=branch
-          type=ref,event=tag
-          type=ref,event=pr
+          type=sha
 
     - name: Push to Docker Registry
       uses: docker/build-push-action@v2
