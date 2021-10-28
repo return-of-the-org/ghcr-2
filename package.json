@@ -9,12 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-		"got": "11.8.2",
-		"registry-auth-token": "4.0.0",
-		"registry-url": "5.0.0",
+    "got": "11.8.2",
+    "registry-auth-token": "4.0.0",
+    "registry-url": "5.0.0",
     "string":"1.6.0",
     "commander":"2.0.0",
-		"semver": "2.2.1",
+    "semver": "2.2.1",
     "nodemailer":"6.4.0"
-	},
+  }
 }
